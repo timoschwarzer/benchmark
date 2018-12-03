@@ -1,15 +1,15 @@
 # benchmark
 Simple js benchmark testing sort algorithms
 
-This PR introduces a small benchmarking toolkit. The API is
+## API
 ```
 measure.unsorted('My Benchmark', (array, log) => {
   // Run your code here
 })
 ```
 
-with array being an either sorted or unsorted array (depending on whether you called measure.sorted or measure.unsorted) and log being a simple log function which logs messages to the browser console prefixed with the title.
+with array being an either sorted or unsorted array (depending on whether you called `measure.sorted` or `measure.unsorted`) and `log` being a simple log function which logs messages to the browser console prefixed with the title.
 
-Append .skip to temporarily skip a benchmark. (e.g. measure.unsorted.skip(...).
+Append `.skip` to temporarily skip a benchmark. (e.g. `measure.unsorted.skip(...)`)
 
 
