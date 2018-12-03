@@ -2,7 +2,7 @@
 Simple js benchmark testing sort algorithms
 
 ## API
-```
+```js
 measure.unsorted('My Benchmark', (array, log) => {
   // Run your code here
 })
